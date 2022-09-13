@@ -76,7 +76,7 @@ def full_app():
     """
     )
 
-   
+    with st.echo():
         # Specify canvas parameters in application
         drawing_mode = st.sidebar.selectbox(
             "Drawing tool:",
