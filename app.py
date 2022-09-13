@@ -53,7 +53,7 @@ def about():
     st.markdown(
         """
     What you can do with Drawable Canvas:
-
+    * write diescriptions
     * Draw freely, lines, circles and boxes on the canvas, with options on stroke & fill
     * Rotate, skew, scale, move any object of the canvas on demand
     * Select a background color or image to draw on
@@ -319,8 +319,8 @@ def compute_arc_length():
 
 if __name__ == "__main__":
     st.set_page_config(
-        page_title="Streamlit Drawable Canvas Demo", page_icon=":pencil2:"
+        page_title="Utility localisation Beta", page_icon=":pencil2:"
     )
-    st.title("Drawable Canvas Demo")
+    st.title("Utility localisation Beta")
     st.sidebar.subheader("Configuration")
     main()
