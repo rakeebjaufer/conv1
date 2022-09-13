@@ -45,7 +45,7 @@ def about():
         ,
     """
     )
-    st.image("img/demo.gif")
+    st.image("img/sensecity_10_detected.png")
     st.markdown(
         """
     What you can do with Drawable Canvas:
