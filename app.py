@@ -34,7 +34,7 @@ def main():
             unsafe_allow_html=True,
         )
         st.markdown(
-            '<div style="margin: 0.75em 0;"><a href="https://www.buymeacoffee.com/andfanilo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a></div>',
+            '<div style="margin: 0.75em 0;"><a href="https://www.google.com" target="_blank"></a></div>',
             unsafe_allow_html=True,
         )
 
