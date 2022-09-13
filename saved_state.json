@@ -8,7 +8,6 @@
       "originY": "center",
       "left": 52,
       "top": 197,
-      "diff": "left" - "top",
       "width": 91.02,
       "height": 91.02,
       "fill": "rgba(255, 165, 0, 0.2)",
