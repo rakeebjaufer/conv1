@@ -22,7 +22,7 @@ def main():
         st.session_state["color_to_label"] = {}
     PAGES = {
         "About": about,
-        "Basic example": full_app,
+        "Depth Estimation": full_app,
     }
     page = st.sidebar.selectbox("Page:", options=list(PAGES.keys()))
     PAGES[page]()
