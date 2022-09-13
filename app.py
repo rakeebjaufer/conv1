@@ -23,8 +23,6 @@ def main():
     PAGES = {
         "About": about,
         "Basic example": full_app,
-        "Download Base64 encoded PNG": png_export,
-        "Compute the length of drawn arcs": compute_arc_length,
     }
     page = st.sidebar.selectbox("Page:", options=list(PAGES.keys()))
     PAGES[page]()
