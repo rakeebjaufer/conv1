@@ -59,7 +59,9 @@ def about():
     * Save canvas data as JSON to reuse for another session
     """
     )
-
+    
+    frost = np.random.randn(50, 20),
+    st.image(np.frost, caption='Sunrise by the mountains')
 
 def full_app():
     st.sidebar.header("Configuration")
