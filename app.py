@@ -61,7 +61,7 @@ def about():
     )
     
     frost = np.random.randn(50, 20),
-    st.image(np.frost)
+    st.image(frost)
 
 def full_app():
     st.sidebar.header("Configuration")
